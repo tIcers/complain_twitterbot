@@ -43,9 +43,9 @@ class InternetSpeedTwitterBot:
         WebDriverWait(self.browser, 10).until(EC.element_to_be_clickable((By.NAME, "text"))).send_keys(TWITTER_EMAIL)
         self.browser.find_element(by=By.XPATH, value="//*[@id='layers']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div").click()
 
-        # user name in case for sus login page
-        WebDriverWait(self.browser, 10).until(EC.element_to_be_clickable((By.NAME, "text"))).send_keys(USER_NAME)
-        self.browser.find_element(by=By.XPATH,value="//*[@id='layers']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div").click()
+        # # user name in case for sus login page
+        # WebDriverWait(self.browser, 10).until(EC.element_to_be_clickable((By.NAME, "text"))).send_keys(USER_NAME)
+        # self.browser.find_element(by=By.XPATH,value="//*[@id='layers']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div").click()
 
 
         #password page
