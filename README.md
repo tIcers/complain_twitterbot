@@ -1,7 +1,7 @@
 # complain_twitterbot
 
-Twitter bot will complain by tweeting internet speed when internet provider can not actually provide you with good internet speed.
+Twitter bot will tweet your internet speed when your internet provider fails to deliver good internet speeds."
 
 # technolgies
 
-I mainly used selenium in python and OOP concept for the twitter bot.
+I mainly used selenium in python 
